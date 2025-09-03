@@ -1,0 +1,6 @@
+filepath,pred_label,confidence,topk
+uji\BG1.jpg,Bg,0.9947221,Bg:0.995; Sa:0.005; Hl:0.000
+uji\Ra1.jpg,Sa,0.7789176,Sa:0.779; Bg:0.218; Hl:0.002
+uji\Ra2.jpg,Sa,0.80464417,Sa:0.805; Am:0.122; Ra:0.072
+uji\sa1.jpg,Sa,0.9945475,Sa:0.995; Hl:0.005; Ao:0.000
+uji\sa2.jpg,Sa,0.99999785,Sa:1.000; Ao:0.000; Hl:0.000
