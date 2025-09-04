@@ -857,7 +857,7 @@ elif page == "deteksi":
                         st.markdown('<section class="card">', unsafe_allow_html=True)
                         cols = st.columns([1,1])
                         with cols[0]:
-                            st.image(rgb_anno, caption=f"{f.name}", use_container_width=True)
+                            st.image(rgb_anno, caption=f"{f.name}")
                         with cols[1]:
                             st.markdown(f"**Prediksi:** <b>{pred}</b> ({conf:.3f})", unsafe_allow_html=True)
                             st.markdown("**Top-k:** " + ", ".join([f"{lbl}:{p:.3f}" for lbl, p in topk]))
